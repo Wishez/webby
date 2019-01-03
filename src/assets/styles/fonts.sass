@@ -1,0 +1,10 @@
+@import './helpers/_mixins.scss'
+@import './constants/_fonts.sass'
+
+@include font-face($firstFontName, '#{$robotoPath}/Roboto-Light', 200)
+@include font-face($firstFontName, '#{$robotoPath}/Roboto-Regular')
+@include font-face($firstFontName, '#{$robotoPath}/Roboto-Medium', 500)
+@include font-face($firstFontName, '#{$robotoPath}/Roboto-Bold', bold)
+
+@include font-face($secondFontName, '#{$sourceSansPath}/SourceSansPro-SemiBold', 600)
+@include font-face($secondFontName, '#{$sourceSansPath}/SourceSansPro-Bold', bold)
