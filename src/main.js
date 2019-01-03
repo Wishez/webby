@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import './index.sass'
+import './fonts.sass'
 
 Vue.config.productionTip = false
 
