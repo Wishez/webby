@@ -449,14 +449,16 @@
 
 
 .container 
-	padding-right: 1.5rem 
-	padding-left: 2.5rem
+	$offset: 16 * 1.618
+	padding-right: #{$offset}px
+	padding-left: #{$offset}px
+	max-width: 1172px + ($offset * 2)
 	margin-right: auto
 	margin-left: auto
 
 	@include breakpoint($xxs)
-		padding-right: 1rem 
-		padding-left: 1.5rem
+		// padding-right: 1rem 
+		// padding-left: 1.5rem
 	
 
 

@@ -10,21 +10,27 @@ $gutters: 0
 
 .fourWithPadding
 	min-width: calc(33% - #{$s29})
+
 .grow	
 	flex-grow: 1
+
 .fullWidth
 	min-width: 100%
+
 	&_xs
 		@include breakpoint($xs)
 			min-width: 100% !important
+
 	&_xxs
 		@include breakpoint($xxs)
 			min-width: 100% !important
+
 .notRestAlone:nth-last-child(2):nth-child(4n)
 	min-width: 66%
 
 .halfWidth
 	min-width: 50%
+	
 	&_xs
 		@include breakpoint($xs)
 			min-width: 50% 
@@ -37,10 +43,13 @@ $gutters: 0
 
 .row
 	flex-direction: row
+
 .wrap
 	flex-wrap: wrap
+
 .nowrap
 	flex-wrap: nowrap
+	
 .column
 	flex-direction:  column 
 
